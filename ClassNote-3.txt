@@ -1,0 +1,171 @@
+Test Condition is a constraint.
+
+
+Test Scenario can have multiple conditions
+
+Test case can have one or more test scenarios
+
+
+
+
+Test Conditions: Login page for facebook
+
+test Conditions for valid user logging
+
+Username:
+- Use Alpha numeric
+- should be between 6 to 16 characters
+- should not contain special character
+- should contain one upper case character
+- should be unique
+
+For Eg:
+
+Edureka12
+rerewrwe
+
+
+Password:
+- password should be between 6 to 16 character
+- password should contain one special character
+- should start with an upper case
+- should be alpha numeric
+
+For eg:
+ Edureka12
+ weewrewr
+ 
+ Test condition should come from the business
+ 
+ 
+ 
+ 
+ Scenario
+ - To test with valid user
+ - invalid user
+ 
+ 
+ 
+ 
+ 
+1)  State Transition
+ 
+ 
+ input:  invalid user: Edureka
+         invalid password: Edureka
+
+Click login
+
+  output: not able to login ,will get error message
+  
+  
+  
+  
+  input:  valid user: Edureka
+         valid password: Edureka12
+
+Click login
+
+  output: user will be able to login to the application
+  
+  
+2) Boundary value Analysis (BVA)
+
+
+       Username field
+	   
+	   - it can take up to 6-16 character
+	   
+	   
+	   
+	   0---------6------------16--------
+	   
+	   
+	   5,6,7--------------15,16,17
+	   
+	   
+	   
+3 Equivalence partitioning	   
+
+
+Ranges
+
+0---------6------------16--------
+
+
+ 0 to 6--->class 1     3 ,----->no
+
+6 to 16   class 2   8------->yes
+
+
+greater than 16 class 3   20------->no
+
+
+
+
+API
+
+https://www.google.com/gen_204?atyp=csi&ei=fTasYZ6DDJHVgQbxu6nYBA&s=jsa&jsi=s,st.100831,t.0,et.click,n.vZr2rb,cn.1&zx=1638676210746
+
+
+
+
+
+
+
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
